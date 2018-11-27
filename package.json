@@ -1,0 +1,48 @@
+{
+  "name": "react-data-grid",
+  "version": "1.0.0",
+  "description": "Creates a scrollable, virtualized table.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run lint && babel ./src -d ./lib --delete-dir-on-start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint './src/*.{js,jsx}'",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": "{src,test}/*.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andypf/react-data-grid.git"
+  },
+  "keywords": [
+    "react",
+    "data",
+    "grid",
+    "npm",
+    "package",
+    "andypf"
+  ],
+  "author": "Andreas Pfau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andypf/react-data-grid/issues"
+  },
+  "homepage": "https://github.com/andypf/react-data-grid#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "dependencies": {
+    "npm-watch": "^0.4.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
